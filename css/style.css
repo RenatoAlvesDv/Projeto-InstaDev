@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --preto: #000000;
+    --preto2: #353535;
+    --fonteCinza: #909090;
+    --escolhaIMG: #D1D1D1;
+    --backSearch: #DCDCDC;
+    --background: #FAFAFA;
+    --lilas: #8134AF;
+    --roxo: #515BD4;
+    --azul: #2686CC;
+    --rosa: #DD2A7B;
+    --laranja: #F58529;
+    --amarelo: #FEDA77;
+}
+
+.background{
+    background-color: #909090;
+}
+
+.topo{
+    position: absolute;
+    width: 1920px;
+    height: 53px;
+    left: 0px;
+    top: 0px;
+    background: var(--background);
+    border: 1px solid #F1F1F1;
+    box-sizing: border-box;
+}
+
+.content{
+    position: absolute;
+    width: 78px;
+    height: 27px;
+    left: 492px;
+    top: 10px;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 37px;
+    color: var(--preto)
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: -35px;
+    margin-left: 850px;
+}
+
+.menu h1{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    margin-left: -560px;
+    color: #909090;
+    justify-content: space-around;
+    background: #FAFAFA;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    border-radius: 2px;
+    top: 8px;
+}
+
+.pesquisar h1{
+    position: absolute;
+    width: 215px;
+    height: 28px;
+    left: 852px;
+    top: 12px;
+    margin-left: 7px;
+}
+
+.editar-perfil{
+    position: absolute;
+    width: 935px;
+    height: 610px;
+    left: 492px;
+    top: 77px;
+    background: #FFFFFF;
+    border: 1px solid #F1F1F1;
+    box-sizing: border-box
+}
+
+
+
+
+
+
+
