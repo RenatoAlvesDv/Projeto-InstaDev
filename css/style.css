@@ -51,6 +51,7 @@
 .menu ul{
     list-style-type: none;
     display: flex;
+    justify-content: space-between;
     margin-top: -35px;
     margin-left: 850px;
 }
@@ -72,16 +73,16 @@
 
 .pesquisar h1{
     position: absolute;
-    width: 215px;
+    width: 250px;
     height: 28px;
-    left: 852px;
+    left: 812px;
     top: 12px;
     margin-left: 7px;
 }
 
 .editar-perfil{
     position: absolute;
-    width: 935px;
+    width: 1200px;
     height: 610px;
     left: 492px;
     top: 77px;
@@ -90,6 +91,157 @@
     box-sizing: border-box
 }
 
+.editar-perfil h2{
+    position: absolute;
+    width: 79px;
+    height: 20px;
+    left: 50px;
+    top: 30px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.editar-perfil linha{
+    position: absolute;
+    width: 60px;
+    height: 0px;
+    left: 492px;
+    top: 77px;
+    border: 2px solid #000000;
+    transform: rotate(90deg)
+}
+
+.perfil img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 380px;
+    top: 30px;
+    background: url(Jeeves-redondo.png);
+    border-radius: 100px;
+}
+
+.info-nome h2{
+    position: absolute;
+    width: 48px;
+    height: 19px;
+    display: flex;
+    left: 880px;
+    top: 175px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--preto);
+}
+
+.info-nome p{
+    position: absolute;
+    width: 354px;
+    height: 48px;
+    left: 925px;
+    top: 211px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #909090;
+}
+
+.info-nome-user h2{
+    position: absolute;
+    width: 118px;
+    height: 19px;
+    left: 795px;
+    top: 327px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--preto);
+}
+
+.info-nome-user p{
+    position: absolute;
+    width: 354px;
+    height: 32px;
+    left: 925px;
+    top: 363px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #909090;
+}
+
+.info-email h2{
+    position: absolute;
+    width: 45px;
+    height: 19px;
+    left: 868px;
+    top: 510px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--preto);
+}
+
+.info-email p{
+    position: absolute;
+    width: 354px;
+    height: 64px;
+    left: 925px;
+    top: 423px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #909090;
+}
+
+.btn-enviar{
+    position: absolute;
+    width: 66px;
+    height: 30px;
+    left: 925px;
+    top: 584px;
+    background: var(--azul);
+    border-radius: 2px;
+}
+
+.btn-enviar p{
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    
+}
+
+.btn-excluir{
+    position: absolute;
+    width: 354px;
+    height: 16px;
+    left: 1069px;
+    top: 591px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--azul);
+}
 
 
 
