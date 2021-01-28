@@ -124,12 +124,40 @@
     border-radius: 100px;
 }
 
+.nickname{
+    position: absolute;
+    width: 209px;
+    height: 24px;
+    left: 450px;
+    top: 30px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--preto);
+}
+
+.nickname h2{
+    position: absolute;
+    width: 209px;
+    height: 19px;
+    left: 1px;
+    top: 25px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--azul);
+}
+
 .info-nome h2{
     position: absolute;
     width: 48px;
     height: 19px;
     display: flex;
-    left: 880px;
+    left: 870px;
     top: 175px;
     font-family: Segoe UI;
     font-style: normal;
@@ -151,6 +179,42 @@
     font-size: 12px;
     line-height: 16px;
     color: #909090;
+}
+
+.espaco-nome{
+    position: absolute;
+    width: 354px;
+    height: 30px;
+    left: 925px;
+    top: 169px;
+    background: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.espaco-nome p{
+    position: absolute;
+    width: 215px;
+    height: 17px;
+    left: 10px;
+    top: 5px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.espaco-nome input{
+    width: 354px;
+    height: 30px;
+    left: 925px;
+    top: 169px;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    border-radius: 2px;
 }
 
 .info-nome-user h2{
@@ -181,6 +245,42 @@
     color: #909090;
 }
 
+.espaco-nome-user{
+    position: absolute;
+    width: 354px;
+    height: 30px;
+    left: 925px;
+    top: 321px;
+    background: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.espaco-nome-user p{
+    position: absolute;
+    width: 215px;
+    height: 17px;
+    left: 10px;
+    top: 5px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.espaco-nome-user input{
+    width: 354px;
+    height: 30px;
+    left: 925px;
+    top: 321px;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
 .info-email h2{
     position: absolute;
     width: 45px;
@@ -209,6 +309,42 @@
     color: #909090;
 }
 
+.espaco-email{
+    position: absolute;
+    width: 354px;
+    height: 30px;
+    left: 925px;
+    top: 504px;
+    background: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.espaco-email p{
+    position: absolute;
+    width: 215px;
+    height: 17px;
+    left: 10px;
+    top: 5px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.espaco-email input{
+    width: 354px;
+    height: 30px;
+    left: 925px;
+    top: 321px;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
 .btn-enviar{
     position: absolute;
     width: 66px;
@@ -219,21 +355,25 @@
     border-radius: 2px;
 }
 
-.btn-enviar p{
+.btn-enviar input{
+    position: absolute;
+    width: 66px;
+    height: 30px;
+    left: 1px;
+    top: -1px;
+    background: var(--azul);
+    border-radius: 2px;
+    color: #FFFFFF;
     font-family: Segoe UI;
-    font-style: normal;
     font-weight: 600;
     font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-    
 }
 
-.btn-excluir{
+.btn-excluir input{
     position: absolute;
     width: 354px;
     height: 16px;
-    left: 1069px;
+    left: 1000px;
     top: 591px;
     font-family: Segoe UI;
     font-style: normal;
@@ -241,7 +381,10 @@
     font-size: 12px;
     line-height: 16px;
     color: var(--azul);
+    background-color: #FFFFFF;
 }
+
+
 
 
 
