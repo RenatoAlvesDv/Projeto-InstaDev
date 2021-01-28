@@ -89,6 +89,7 @@ body{
 
 
 /* LOGIN - inicio */
+
 /* LOGIN - final */
 
 
@@ -97,6 +98,12 @@ body{
 
 
 /* EDIÇÃO DE PERFIL - inicio */
+
+
+/* EDIÇÃO DE PERFIL - final */
+
+
+/* FEED - inicio */
 .destaque{
     height: 110px;
     display: flex;
@@ -104,8 +111,6 @@ body{
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
-    
-    /* background-color: var(--preto2); */
 }
 
 .destaque a{
@@ -171,7 +176,6 @@ body{
     justify-content: space-around;
     align-items: center;
     margin-bottom: 10px;
-    /* background-color: var(--amarelo); */
 }
 .fotoeP img{
     margin-bottom: 15px;
@@ -195,7 +199,6 @@ body{
     text-align: center;
     background-color:var(--background);
 }
-
 
 .formEBotoes button{
     width: 155px;
@@ -231,7 +234,6 @@ body{
     font-weight: 600;
     color: var(--preto);
 }
-
 
 .infoPubli{
     width: 200px;
@@ -274,11 +276,6 @@ body{
     margin-left: 20px;
     font-weight: bold;
 }
-
-/* EDIÇÃO DE PERFIL - final */
-
-
-/* FEED - inicio */
 /* FEED - final */
 
 
@@ -286,4 +283,33 @@ body{
 /* PERFIL - final */
 
 /* FOOTER - inicio */
+footer{
+    height: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: var(--fonteCinza);
+    padding: 25px;
+
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: 400;
+    color: var(--fonteCinza)
+}
+
+footer .linhaUm{
+    margin-bottom: 15px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+footer .linhaDois{
+    width: 400px;
+    margin: auto;
+    margin-bottom: 15px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
 /* FOOTER - final */
