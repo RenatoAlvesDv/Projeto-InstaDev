@@ -69,7 +69,7 @@
 
 .main {
     background: #fafafa;
-    width:  1250px;;
+    width:  2550px;;
     height: 1500px;
     position: relative;
 
@@ -94,6 +94,7 @@
     display: flex;
     align-items: center;
     flex-direction: row;
+    width: 1000px;
     height: 100%;
     
 }
@@ -133,7 +134,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-right: 150px;
+    margin-right: 140px;
     margin-top: 10px;
     
     
@@ -209,7 +210,7 @@
 .publi{
     display: flex;
     align-items: center;
-    margin-left: 25%;
+    margin-left: 40%;
     
     
 }
@@ -231,7 +232,7 @@
 }
 
 .publicacao-toda{
-    margin-left: 155px;
+    margin-left: 805px;
     width: 100%;
     height: 100px;
 
