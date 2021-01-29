@@ -21,87 +21,15 @@
     --amarelo:    #FEDA77;
 }
 
-/* HEADER - inicio */
-.topo{
-    /* position: absolute; */
-    width: 1920px;
-    height: 53px;
-    left: 0px;
-    top: 0px;
-    background: var(--background);
-    border: 1px solid #F1F1F1;
-    box-sizing: border-box;
-}
-.logo{
-   width: 150px;
-}
-
 .content{
     width: 940px;
     left: 492px;
     top: 10px;
-    margin: auto;
-    /* background-color: var(--amarelo); */
-    /* font-size: 30px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 37px;
-    color: var(--preto) */    
+    margin: auto;  
 }
-
-.menu ul{
-    width: 235px;
-    height: 50px;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    margin-top: -35px;
-    margin-left: 850px;
-}
-
-.menu h1{
-    font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    margin-left: -560px;
-    color: #909090;
-    justify-content: space-around;
-    background: #FAFAFA;
-    border: 1px solid #DCDCDC;
-    box-sizing: border-box;
-    border-radius: 2px;
-    top: 8px;
-}
-
-.pesquisar h1{
-    position: absolute;
-    width: 215px;
-    height: 28px;
-    left: 852px;
-    top: 12px;
-    margin-left: 7px;
-}
-/* HEADER - final */
 body{
     background-color: var(--background);
 }
-
-
-/* LOGIN - inicio */
-
-/* LOGIN - final */
-
-
-/* CADASTRO - inicio */
-/* CADASTRO - final */
-
-
-/* EDIÇÃO DE PERFIL - inicio */
-
-
-/* EDIÇÃO DE PERFIL - final */
-
 
 /* FEED - inicio */
 .destaque{
@@ -139,6 +67,7 @@ body{
     width: 62px;
     margin-top: 15px;
 }
+
 .story{
     width: 715px;
     height: 100px;
@@ -158,6 +87,7 @@ body{
     background-color: #fff;
     border: 1px solid #F1F1F1;
 }
+
 .story img{
     width: 60px;
 }
@@ -170,16 +100,20 @@ body{
     border: 1px solid #F1F1F1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .fotoeP{
     width: 150px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 10px;
+    /* background-color: var(--amarelo); */
 }
+
 .fotoeP img{
     margin-bottom: 15px;
 }
+
 .fotoeP h1{
     font-size: 18px;
     font-weight: bold;
@@ -190,6 +124,7 @@ body{
     justify-content: space-around;
     font-size: 12px;
 }
+
 .formEBotoes input{
     width: 300px;
     height: 27px;
@@ -243,6 +178,7 @@ body{
     align-items: center;
     margin-bottom: 5px;
 }
+
 .infoPubli img{
     margin: 0;
 }
@@ -278,10 +214,6 @@ body{
 }
 /* FEED - final */
 
-
-/* PERFIL - inicio */
-/* PERFIL - final */
-
 /* FOOTER - inicio */
 footer{
     height: 100px;
@@ -304,6 +236,7 @@ footer .linhaUm{
     justify-content: space-around;
     align-items: center;
 }
+
 footer .linhaDois{
     width: 400px;
     margin: auto;
