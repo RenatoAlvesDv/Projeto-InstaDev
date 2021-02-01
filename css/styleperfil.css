@@ -14,17 +14,23 @@
     box-sizing: border-box;
 }
 .logo{
-   width: 150px;
-   margin-top: 5px;
+    
+  margin-left: 122px;
+  
 
 }
+.fotop{
+    width: 32px;
+    height: 32px;
+    
 
-.content{
+}
+.content-topo{
     width: 940px;
-    left: 492px;
-    top: 10px;
-    margin: auto;
-    /* background-color: var(--amarelo); */
+    left: 0px;
+    top: 5px;
+    
+   
     /* font-size: 30px;
     font-weight: normal;
     font-style: normal;
@@ -34,12 +40,13 @@
 
 .menu ul{
     width: 235px;
-    height: 50px;
+    height: 28px;
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    margin-top: -35px;
+    margin-top: -20px;
     margin-left: 800px;
+
 }
 
 .menu h1{
@@ -69,17 +76,26 @@
 
 .main {
     background: #fafafa;
-    width:  2550px;;
+    width:  1260px;;
     height: 1500px;
     position: relative;
 
 }
 
+.perfil{
+    width: 940px;
+    left: 492px;
+    top: 10px;
+    margin: auto; 
+}
+
+
+
 /*Perfil topo*/
 .perfil-todo{
-    width: 100%;
+    width: 165px;
     height: 250px;
-   
+    
 
 }
 
@@ -102,7 +118,7 @@
 .f-perfil{
     width: 100px;
     height: 1000px;
-    margin: 0 12% 0 10em;
+    margin: 0 5% 0 10em;
     display: flex;
     align-items: center;
     position: relative;
@@ -111,7 +127,7 @@
 
 
 .img-perfil{
-    margin-left: 25px;
+    margin-left: -55px;
 }
 
 .info{
@@ -134,7 +150,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-right: 140px;
+    margin: auto;
     margin-top: 10px;
     
     
@@ -174,7 +190,7 @@
 
 .nome a{
     font-weight: 600;
-    margin: 0 30% 0 10em;
+   /* margin-left: 10px;*/
 }    
 
 
@@ -202,7 +218,7 @@
 .card{
     width: 430px;
     height: 404px;
-    left: 487px;
+    /*left: 487px;*/
     top: 365px;
 }
 
@@ -210,7 +226,7 @@
 .publi{
     display: flex;
     align-items: center;
-    margin-left: 40%;
+    margin-left: 20%;
     
     
 }
@@ -232,7 +248,7 @@
 }
 
 .publicacao-toda{
-    margin-left: 805px;
+    margin: auto;
     width: 100%;
     height: 100px;
 
