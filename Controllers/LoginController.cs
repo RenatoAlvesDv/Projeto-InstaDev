@@ -5,15 +5,15 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Projeto_InstaDev.Controllers
 {
-    public class LoginController
-    {
         [Route("Login")]
     public class LoginController : Controller
     {
         [TempData]
         public string Mensagem { get; set; }
         
-    
+        
+        Jogador jogadorModel = new Jogador();
+
         public IActionResult Index()
         {
             return View();
@@ -23,7 +23,7 @@ namespace Projeto_InstaDev.Controllers
         public IActionResult Logar(IFormCollection form)
         {
             // Lemos todos os arquivos do CSV
-            List<string> csv = FeedModel.ReadAllLinesCSV(FeedModel.PATH);
+            List<string> csv = jogadorModel.ReadAllLinesCSV(jogadorModel.PATH);
 
             // Verificamos se as informações passadas existe na lista de string
             var logado = 
@@ -52,6 +52,5 @@ namespace Projeto_InstaDev.Controllers
             HttpContext.Session.Remove("_UserName");
             return LocalRedirect("~/");
         }
-             
-    }
+            }
 }

@@ -1,8 +1,10 @@
+using System.Collections.Generic;
+using EPlayers_AspNetCore.Models;
+
+
 namespace Projeto_InstaDev.Interfaces
 {
-    public class IUsuario
-    {
-           public interface IUsuario
+     public interface IUsuario
     {
           //Criar
         void Create(Usuario u);
@@ -12,7 +14,5 @@ namespace Projeto_InstaDev.Interfaces
         void Update(Usuario u);
         //Excluir
         void Delete(int id);  
-    }
-}
     }
 }
