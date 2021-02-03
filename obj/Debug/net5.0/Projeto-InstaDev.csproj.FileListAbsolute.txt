@@ -37,3 +37,5 @@ C:\Users\erika\Desktop\PROJETOS SENAI\Nova pasta\Projeto-InstaDev\obj\Debug\net5
 C:\Users\erika\Desktop\PROJETOS SENAI\Nova pasta\Projeto-InstaDev\obj\Debug\net5.0\Projeto-InstaDev.pdb
 C:\Users\erika\Desktop\PROJETOS SENAI\Nova pasta\Projeto-InstaDev\obj\Debug\net5.0\Projeto-InstaDev.genruntimeconfig.cache
 C:\Users\erika\Desktop\PROJETOS SENAI\Nova pasta\Projeto-InstaDev\obj\Debug\net5.0\Projeto-InstaDev.csproj.CopyComplete
+C:\Users\erika\Desktop\PROJETOS SENAI\Nova pasta\Projeto-InstaDev\obj\Debug\net5.0\Razor\Views\Comentario\index.cshtml.g.cs
+C:\Users\erika\Desktop\PROJETOS SENAI\Nova pasta\Projeto-InstaDev\obj\Debug\net5.0\Razor\Views\Publicacao\index.cshtml.g.cs

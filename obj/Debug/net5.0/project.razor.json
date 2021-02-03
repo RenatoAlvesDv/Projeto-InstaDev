@@ -15603,6 +15603,16 @@
   "RootNamespace": "Projeto_InstaDev",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\erika\\Desktop\\PROJETOS SENAI\\Nova pasta\\Projeto-InstaDev\\Views\\Comentario\\index.cshtml",
+      "TargetPath": "Views\\Comentario\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\erika\\Desktop\\PROJETOS SENAI\\Nova pasta\\Projeto-InstaDev\\Views\\Teste\\teste.cshtml",
+      "TargetPath": "Views\\Teste\\teste.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\erika\\Desktop\\PROJETOS SENAI\\Nova pasta\\Projeto-InstaDev\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -15630,6 +15640,11 @@
     {
       "FilePath": "c:\\Users\\erika\\Desktop\\PROJETOS SENAI\\Nova pasta\\Projeto-InstaDev\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\erika\\Desktop\\PROJETOS SENAI\\Nova pasta\\Projeto-InstaDev\\Views\\Publicacao\\index.cshtml",
+      "TargetPath": "Views\\Publicacao\\index.cshtml",
       "FileKind": "mvc"
     }
   ],

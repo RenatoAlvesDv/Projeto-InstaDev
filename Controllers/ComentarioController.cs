@@ -6,7 +6,7 @@ using Projeto_InstaDev.Models;
 
 namespace Projeto_InstaDev.Controllers
 {
-        [Route ("Feed")]
+        [Route ("Comentar")]
     public class ComentarioController : Controller
     {
         Comentario comentarioModel = new Comentario();
@@ -15,7 +15,7 @@ namespace Projeto_InstaDev.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.Comentarios = comentarioModel.ReadAll();
+            ViewBag.Comentario = comentarioModel.ReadAll();
             return View();
         }
 
@@ -27,11 +27,14 @@ namespace Projeto_InstaDev.Controllers
 
             novoComentario.IdComentario = Int32.Parse (form ["IdComentario"]);
             novoComentario.Mensagem     = form ["Mensagem"];
+            novoComentario.IdUsuario    = Int32.Parse (form ["IdUsuario"]);
+            novoComentario.IdPublicacao = Int32.Parse (form ["IdPublicacao"]);
+
 
             if (form.Files.Count > 0)
             {
                 var file  = form.Files [0];
-                var folder = Path.Combine (Directory.GetCurrentDirectory(), "wwwroot/img");
+                var folder = Path.Combine (Directory.GetCurrentDirectory(), "wwwroot");
 
                 if (Directory.Exists(folder))
                 {
@@ -55,7 +58,17 @@ namespace Projeto_InstaDev.Controllers
             comentarioModel.Create(novoComentario);
             ViewBag.Comentarios = comentarioModel.ReadAll();
 
-            return LocalRedirect ("~/Feed/Listar");
+            return LocalRedirect ("~/Comentar/Listar");
+        }
+        
+        [Route("{id}")]
+
+        public IActionResult Excluir(int id)
+        {
+            comentarioModel.Delete(id);
+            ViewBag.Comentarios = comentarioModel.ReadAll();
+
+            return LocalRedirect("~/Comentar/Listar");
         }
     }
 }
