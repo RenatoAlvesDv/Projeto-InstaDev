@@ -3,13 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-<<<<<<< HEAD
       "applicationUrl": "http://localhost:33562",
       "sslPort": 44311
-=======
-      "applicationUrl": "http://localhost:10100",
-      "sslPort": 44347
->>>>>>> main
     }
   },
   "profiles": {
@@ -22,10 +17,6 @@
     },
     "Projeto_InstaDev": {
       "commandName": "Project",
-<<<<<<< HEAD
-=======
-      "dotnetRunMessages": "true",
->>>>>>> main
       "launchBrowser": true,
       "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
