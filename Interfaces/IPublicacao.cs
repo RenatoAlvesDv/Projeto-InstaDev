@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using Projeto_InstaDev.Models;
+
 namespace Projeto_InstaDev.Interfaces
 {
     public interface IPublicacao

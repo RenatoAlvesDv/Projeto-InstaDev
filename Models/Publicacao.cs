@@ -4,7 +4,7 @@ using Projeto_InstaDev.Interfaces;
 
 namespace Projeto_InstaDev.Models
 {
-    public class Publicacao
+    public class Publicacao : InstaDevBase, IPublicacao
     {
         public int IdPublicacao { get; set; }
         public int IdUsuario { get; set; }
@@ -66,6 +66,11 @@ namespace Projeto_InstaDev.Models
             linhas.RemoveAll(x => x.Split(";")[0] == p.IdPublicacao.ToString());
             linhas.Add( Prepare(p) );                        
             RewriteCSV(PATH, linhas); 
+        }
+
+        public string Curtir()
+        {//bool - condicional 
+            return "";
         }
     }
 }

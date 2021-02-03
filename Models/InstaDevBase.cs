@@ -21,34 +21,34 @@ namespace Projeto_InstaDev.Models
                 }
             }
 
-        public List<string> ReadAllLinesCSV(string path)
+        public List<string> ReadAllLinesCSV (string path)
         
-        {
-            List<string> linhas = new List<string>();
-
-            using(StreamReader file = new StreamReader(path))
-            
             {
-                string linha;
+                List<string> linhas = new List<string>();
 
-                while ((linha = file.ReadLine()) != null)
+                using(StreamReader file = new StreamReader(path))
+                
                 {
-                    linhas.Add(linha);
-                }
-            }
+                    string linha;
 
-            return linhas;            
-        }
+                    while ((linha = file.ReadLine()) != null)
+                    {
+                        linhas.Add(linha);
+                    }
+                }
+
+                return linhas;            
+            }
         
         public void RewriteCSV(string _path, List<string> linhas)
-        {
-            using(StreamWriter saida = new StreamWriter(_path))
             {
-                foreach (var item in linhas)
+                using(StreamWriter saida = new StreamWriter(_path))
                 {
-                    saida.Write(item + '\n');
+                    foreach (var item in linhas)
+                    {
+                        saida.Write(item + '\n');
+                    }
                 }
             }
-        }
     }
 }
