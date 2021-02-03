@@ -6,6 +6,7 @@ namespace Projeto_InstaDev.Models
     public class InstaDevBase
     {
         public void CreateFolderAndFile(string _path)
+<<<<<<< HEAD
         {
             string folder = _path.Split("/")[0];
 
@@ -21,10 +22,33 @@ namespace Projeto_InstaDev.Models
         }
 
         public List<string> ReadAllLinesCSV(string path)
+=======
+
+            {
+                string folder = _path.Split("/")[0];
+
+                if(!Directory.Exists(folder))
+                {
+                    Directory.CreateDirectory(folder);
+                }
+
+                if(!File.Exists(_path))
+                {
+                    File.Create(_path);
+                }
+            }
+
+        public List<string> ReadAllLinesCSV(string path)
+        
+>>>>>>> main
         {
             List<string> linhas = new List<string>();
 
             using(StreamReader file = new StreamReader(path))
+<<<<<<< HEAD
+=======
+            
+>>>>>>> main
             {
                 string linha;
 

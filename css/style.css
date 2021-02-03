@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --preto:      #000000;
+    --preto2:     #353535; 
+    --fonteCinza: #909090;
+    --escolhaIMG: #D1D1D1;
+    --backSearch: #DCDCDC;
+    --background: #fafafa;
+    --lilas:      #8134AF;
+    --roxo:       #515BD4;
+    --azul:       #2686CC;
+    --rosa:       #DD2A7B;
+    --laranja:    #F58529;
+    --amarelo:    #FEDA77;
+}
+.cadastro{
+    width: 345px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #F1F1F1;
+    background-color: #fff;
+}
+.cadastro img{
+    margin-bottom: 20px;
+    margin-right: 48px;
+}
+.cadastro h2{
+    font-size: 15px;
+    color: var(--fonteCinza);
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 48px;
+}
+.cadastro input{
+    display: flex;
+    flex-direction: column;
+    color: var(--fonteCinza);
+    border: 1px solid #DCDCDC;
+    background-color:var(--background);
+    width: 265px;
+    height: 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    padding: 12px;
+}
+.cadastro button{
+    width: 290px;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 2px;
+    border-color: var(--azul);
+    color: #fff;
+    background-color: var(--azul);
+    border: none;
+}
+.cadastro p{
+    margin-top: 25px;
+    font-size: 13px;
+    color: var(--fonteCinza);
+    text-align: center;
+    margin-right: 60px;
+}
+.login{
+    width: 405px;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #F4F4F4;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.login h2{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.login a{
+    text-decoration: none;
+}
+.apps{
+    width: 405px;
+    height: 60px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.apps h2{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.images{
+    width: 300px;
+    display: flex;
+    margin: auto;   
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-evenly
+}
