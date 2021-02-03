@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\New Force\\.nuget\\packages\\": {}
+    "C:\\Users\\erika\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\New Force\\Pictures\\Nova pasta\\Projeto-InstaDev\\Projeto-InstaDev.csproj",
+      "projectUniqueName": "C:\\Users\\erika\\Desktop\\PROJETOS SENAI\\Nova pasta\\Projeto-InstaDev\\Projeto-InstaDev.csproj",
       "projectName": "Projeto-InstaDev",
-      "projectPath": "C:\\Users\\New Force\\Pictures\\Nova pasta\\Projeto-InstaDev\\Projeto-InstaDev.csproj",
-      "packagesPath": "C:\\Users\\New Force\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\New Force\\Pictures\\Nova pasta\\Projeto-InstaDev\\obj\\",
+      "projectPath": "C:\\Users\\erika\\Desktop\\PROJETOS SENAI\\Nova pasta\\Projeto-InstaDev\\Projeto-InstaDev.csproj",
+      "packagesPath": "C:\\Users\\erika\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\erika\\Desktop\\PROJETOS SENAI\\Nova pasta\\Projeto-InstaDev\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\New Force\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\erika\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
