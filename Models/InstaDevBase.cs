@@ -1,9 +1,8 @@
-using System.Collections.Generic;
-using System.IO;
-
 namespace Projeto_InstaDev.Models
 {
     public class InstaDevBase
+    {
+         public class InstaDevBase
     {
         public void CreateFolderAndFile(string _path)
 

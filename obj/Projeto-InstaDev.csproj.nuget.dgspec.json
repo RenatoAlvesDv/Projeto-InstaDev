@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\Desktop\\Projetos SENAI\\Projetos MVC\\Projeto InstaDev\\Projeto-InstaDev\\Projeto-InstaDev.csproj": {}
   },
   "projects": {
@@ -18,12 +19,36 @@
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
+=======
+    "C:\\Users\\New Force\\Pictures\\Nova pasta\\Projeto-InstaDev\\Projeto-InstaDev.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\New Force\\Pictures\\Nova pasta\\Projeto-InstaDev\\Projeto-InstaDev.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\New Force\\Pictures\\Nova pasta\\Projeto-InstaDev\\Projeto-InstaDev.csproj",
+        "projectName": "Projeto-InstaDev",
+        "projectPath": "C:\\Users\\New Force\\Pictures\\Nova pasta\\Projeto-InstaDev\\Projeto-InstaDev.csproj",
+        "packagesPath": "C:\\Users\\New Force\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\New Force\\Pictures\\Nova pasta\\Projeto-InstaDev\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\New Force\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+>>>>>>> main
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
+<<<<<<< HEAD
           "netcoreapp3.1": {
+=======
+          "net5.0": {
+            "targetAlias": "net5.0",
+>>>>>>> main
             "projectReferences": {}
           }
         },
@@ -34,7 +59,12 @@
         }
       },
       "frameworks": {
+<<<<<<< HEAD
         "netcoreapp3.1": {
+=======
+        "net5.0": {
+          "targetAlias": "net5.0",
+>>>>>>> main
           "imports": [
             "net461",
             "net462",
@@ -53,7 +83,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+>>>>>>> main
         }
       }
     }
