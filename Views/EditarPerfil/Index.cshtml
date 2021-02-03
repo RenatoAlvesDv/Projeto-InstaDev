@@ -3,7 +3,7 @@
     ViewData["Title"] = "Edição de Perfil";
 }
 
-<form class="Editar-Perfil" action='@Url.Action("EditarPerfil")' method="POST" enctype="multipart/form-data">
+<form class="Editar-Perfil" action='@Url.Action("Editar-Perfil")' method="POST" enctype="multipart/form-data">
 
     <div class="campo">
         <label for="Nome">Nome</label>
@@ -24,3 +24,24 @@
     <button class="Desativar-conta">Desativar minha conta permanentemente</button>
 
 </form>
+
+<table class="table table-striped table-responsive">
+
+    <thead>
+        <th>Nome</th>
+        <th>Nome de usuário</th>
+        <th>Email</th>
+    </thead>
+    <tbody>
+        @foreach (EditarPerfil usuario in ViewBag.EditarPerfil)
+        {
+            <tr>
+                <td>@usuario.Nome</td>
+                <td>@usuario.Nomeusuario</td>
+                <td>@usuario.Email</td>
+                <td><a asp-area="Link para excluir um perfil" asp-controller="EditarPerfil" asp-action="Excluir" asp-route-id="@usuario.EditarPerfil"></a></td>
+            </tr>        
+        }
+    </tbody>
+
+</table>

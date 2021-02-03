@@ -1,11 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-<<<<<<< HEAD
     <TargetFramework>netcoreapp3.1</TargetFramework>
-=======
-    <TargetFramework>net5.0</TargetFramework>
->>>>>>> main
     <RootNamespace>Projeto_InstaDev</RootNamespace>
   </PropertyGroup>
 
