@@ -13,6 +13,7 @@ namespace Projeto_InstaDev.Models
         public int IdPublicacao { get; set; }
         public string PATH = "Database/Comentario.csv";       
         
+        
         public Comentario(){
             CreateFolderAndFile(PATH);
         }

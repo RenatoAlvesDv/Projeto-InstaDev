@@ -62,8 +62,8 @@ namespace Projeto_InstaDev.Models
         {
             List<string> linhas = ReadAllLinesCSV(PATH);
             linhas.RemoveAll(x => x.Split(";")[2] == c.Nick);
-            linhas.Add( Prepare(c) );                        
-            RewriteCSV(PATH, linhas); 
+            linhas.Add( Prepare(c) );
+            RewriteCSV(PATH, linhas);
         }
     }
 }
