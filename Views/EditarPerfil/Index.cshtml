@@ -1,6 +1,6 @@
-@model EdicaoPerfil
+@model EditarPerfil
 @{
-    ViewData["Title"] = "Edição de Perfil";
+    ViewData["Title"] = "Editar-Perfil";
 }
 
 <form class="Editar-Perfil" action='@Url.Action("Editar-Perfil")' method="POST" enctype="multipart/form-data">
@@ -39,7 +39,7 @@
                 <td>@usuario.Nome</td>
                 <td>@usuario.Nomeusuario</td>
                 <td>@usuario.Email</td>
-                <td><a asp-area="Link para excluir um perfil" asp-controller="EditarPerfil" asp-action="Excluir" asp-route-id="@usuario.EditarPerfil"></a></td>
+                <td><a asp-area="Link para excluir um perfil" asp-controller="EditarPerfil" asp-action="Excluir" asp-route-id="@usuario.User"></a></td>
             </tr>        
         }
     </tbody>

@@ -21,7 +21,6 @@ D:\Desktop\Projetos SENAI\Projetos MVC\Projeto InstaDev\Projeto-InstaDev\obj\Deb
 D:\Desktop\Projetos SENAI\Projetos MVC\Projeto InstaDev\Projeto-InstaDev\obj\Debug\netcoreapp3.1\Projeto-InstaDev.RazorCoreGenerate.cache
 D:\Desktop\Projetos SENAI\Projetos MVC\Projeto InstaDev\Projeto-InstaDev\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 D:\Desktop\Projetos SENAI\Projetos MVC\Projeto InstaDev\Projeto-InstaDev\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-D:\Desktop\Projetos SENAI\Projetos MVC\Projeto InstaDev\Projeto-InstaDev\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 D:\Desktop\Projetos SENAI\Projetos MVC\Projeto InstaDev\Projeto-InstaDev\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\Desktop\Projetos SENAI\Projetos MVC\Projeto InstaDev\Projeto-InstaDev\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 D:\Desktop\Projetos SENAI\Projetos MVC\Projeto InstaDev\Projeto-InstaDev\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
@@ -35,3 +34,4 @@ D:\Desktop\Projetos SENAI\Projetos MVC\Projeto InstaDev\Projeto-InstaDev\obj\Deb
 D:\Desktop\Projetos SENAI\Projetos MVC\Projeto InstaDev\Projeto-InstaDev\obj\Debug\netcoreapp3.1\Projeto-InstaDev.pdb
 D:\Desktop\Projetos SENAI\Projetos MVC\Projeto InstaDev\Projeto-InstaDev\obj\Debug\netcoreapp3.1\Projeto-InstaDev.genruntimeconfig.cache
 D:\Desktop\Projetos SENAI\Projetos MVC\Projeto InstaDev\Projeto-InstaDev\obj\Debug\netcoreapp3.1\Projeto-InstaDev.csproj.CopyComplete
+D:\Desktop\Projetos SENAI\Projetos MVC\Projeto InstaDev\Projeto-InstaDev\obj\Debug\netcoreapp3.1\Razor\Views\EditarPerfil\Index.cshtml.g.cs

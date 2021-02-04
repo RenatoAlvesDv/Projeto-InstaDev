@@ -14397,6 +14397,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Desktop\\Projetos SENAI\\Projetos MVC\\Projeto InstaDev\\Projeto-InstaDev\\Views\\EditarPerfil\\Index.cshtml",
+      "TargetPath": "Views\\EditarPerfil\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Desktop\\Projetos SENAI\\Projetos MVC\\Projeto InstaDev\\Projeto-InstaDev\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -14404,11 +14409,6 @@
     {
       "FilePath": "d:\\Desktop\\Projetos SENAI\\Projetos MVC\\Projeto InstaDev\\Projeto-InstaDev\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Desktop\\Projetos SENAI\\Projetos MVC\\Projeto InstaDev\\Projeto-InstaDev\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {

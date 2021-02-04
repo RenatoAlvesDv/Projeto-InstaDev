@@ -9,6 +9,7 @@ namespace Projeto_InstaDev.Models
        public string Nome {get;set;}
        public string Email {get;set;}
        public string Nomeusuario {get;set;}
+       public string User {get;set;}
        private const string  PATH = "Database/Usuário.csv";
 
         public EditarPerfil(){
@@ -26,7 +27,7 @@ namespace Projeto_InstaDev.Models
 
         public void Update(EditarPerfil usuario){
             List<string> linhas = ReadAllLinesCSV(PATH);
-            linhas.RemoveAll(x => x.Split(";")[0] == usuario.ToString());
+            linhas.RemoveAll(x => x.Split(";")[0] == usuario.User.ToString());
             linhas.Add(Prepare(usuario));
             RewriteCSV(PATH, linhas);
         }
