@@ -1,66 +1,42 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>Perfil</title>
-        <link rel="stylesheet" href="css/styleperfil.css">
-    </head>
-    <body>
+@{
+    ViewData["Title"] = "Perfil";
+}
 
-        <header class="content">
-            <div class="content">
-                <a href="index.html">
-                    <img src="img/Instadev-T.svg" alt="Logo Instadev" class="logo">
-                </a>
-                <nav class="menu">
-                    <ul>
-                        <h1><img src="img/search.png">Pesquisar</h1>
-                        <li><a href="#"></a><img src="img/home.png" alt="Simbolo de página inicial"></a></li>
-                        <li><a href="#"><img src="img/direct.png" alt="Item para fazer publicações"></a></li>
-                        <li><a href="#"><img src="img/compass.png" alt="Simbolo de uma bussóla"></a></li>
-                        <li><a href="#"><img src="img/like.png" alt="Item para curtir publicações"></a></li>
-                        <li><a href="#"><img src="img/nick.png" alt="Foto do saudoso Marcos Jeeves"></a></li>
-                        
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <main class="main">
-            <div class="perfil"> 
-            <!--Perfil-->
-                    <div class="perfil-todo">
-                        <div class="content">
-                            <div class="flex">
-                                <div class="f-perfil">
-                                    <img class="img-perfil" src="img/thank-you 3.png" alt="Foto de Perfil do Usuário">
-                                </div>
-                                <div class="info">
-                                    <div class="username">
-                                        <h1>yes_baby</h1>
-                                        <button type="button">Editar perfil</button>
-                                    
-                                    </div>
-                                    <div class="infop">
-                                        <p class="pu">2 publicações</p>
-                                        <p class="pu">128 seguindo</p>
-                                        <p class="pu">214 seguidores</p>
-                                    </div>
-                                    <div class="nome">
-                                        <h2>Marcos Jeeves</h2>
-                                        <a href="#">Sair</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>           
-            <!--Fim Perfil-->
+<link rel="stylesheet" href="~/css/stylePerfil.css">
 
-                    <!--Linha-->       
-                    <hr class="linha" size="2" width="100%" color="#EEEEEE">
-                    <!-- Fim linha-->
+<section class="perfil content flex-bt-center">
+    <div>
+        <img src="~/img/Perfil/@ViewBag.perfil.Foto" alt="Imagem do perfil">
+    </div>
+    <div class="info">
+        <div class="nick">
+            <p>@ViewBag.perfil.NomeDoUsuario</p>
+        </div>
+        <div class="contadores">
+            <p>@ViewBag.publicacao.Count publicações</p>
+            <p class="pu">128 seguindo</p>
+            <p class="pu">214 seguidores</p>
+        </div>
+        <div class="flex-bt-center">
+            <p class="nome">@ViewBag.perfil.NomeCompleto</p>
+            <a aria-label="Link para a pagina de editar perfil" asp-controller="Editar" class="link-style">Editar Perfil</a>
+            <a aria-label="link para logout" asp-controller="Perfil" asp-action="Sair" class="link-style">Sair</a>
+        </div>
+    </div>
+</section>
+
+<hr class="solid content">
 
 
-                    <!--Publicações-->
+<div class="pub">
+<div class="publi">
+<img class="meio" src="img/pub.png">
+<h3>PUBLICAÇÕES</h3> 
+  </div>    
+
+    @foreach (Publicacao item in ViewBag.publicacao)
+    {
+        <!--Publicações-->
                             <div class="pub">
                                 <div class="publi">
                                     <img class="meio" src="img/pub.png">
@@ -122,28 +98,4 @@
                                     </section>  
                                 </div> 
                             </div>    
-                         <!--Fim publicação--> 
-            </div>                  
-        </main>            
-</body>
-<!--footer-->
-<footer class="content">
-    <div class="linhaUm">
-            <a href="#">Sobre</a>
-            <a href="#">Carreiras</a>
-            <a href="#">Ajuda</a>
-            <a href="#">API</a>
-            <a href="#">Pivacidade</a>
-            <a href="#">Termos</a>
-            <a href="#">Contas mais relevantes</a>
-            <a href="#">Hashtags</a>
-            <a href="#">Localizações</a><br>
-    </div>
-
-    <div class="linhaDois">
-        <a href="#">Português Brasil</a>
-        <a href="#">© 2021 IntaDev Senai Informática</a>
-    </div>
-</footer>
-
-</html>
+    }

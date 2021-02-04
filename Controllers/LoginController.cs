@@ -12,7 +12,7 @@ namespace Projeto_InstaDev.Controllers
         public string Mensagem { get; set; }
         
         
-        Jogador jogadorModel = new Jogador();
+        Jogador UsuarioModel = new Usuario();
 
         public IActionResult Index()
         {
@@ -23,7 +23,7 @@ namespace Projeto_InstaDev.Controllers
         public IActionResult Logar(IFormCollection form)
         {
             // Lemos todos os arquivos do CSV
-            List<string> csv = jogadorModel.ReadAllLinesCSV(jogadorModel.PATH);
+            List<string> csv = FeedModel.ReadAllLinesCSV(FeedModel.PATH);
 
             // Verificamos se as informações passadas existe na lista de string
             var logado = 
