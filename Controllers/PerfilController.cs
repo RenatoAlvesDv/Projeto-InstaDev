@@ -1,6 +1,7 @@
-using Projeto_InstaDev.Models;
+
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Projeto_InstaDev.models;
 
 namespace Projeto_InstaDev.Controllers
 {
@@ -18,9 +19,6 @@ namespace Projeto_InstaDev.Controllers
                 userId = int.Parse(HttpContext.Session.GetString("_IdLogado"));
             else
                 userId = idUsuario;
-
-            Publicacao publicacao = new Publicacao();
-            ViewBag.publicacao = publicacao.AcharPostsDoUsuario(userId);
 
             ViewBag.perfil = usuario.BuscarUsuarioPorId(userId); 
 

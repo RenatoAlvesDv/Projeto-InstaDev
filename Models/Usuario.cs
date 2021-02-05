@@ -1,8 +1,9 @@
   
 using System.IO;
 using System.Collections.Generic;
-using Projeto_InstaDev.Interface;
 using System;
+using Projeto_InstaDev.Models;
+using Projeto_InstaDev.Interfaces;
 
 namespace Projeto_InstaDev.models
 {
@@ -16,7 +17,8 @@ namespace Projeto_InstaDev.models
         public DateTime DataNascimento { get; set; }
         public string Foto { get; set; }
         
-        private const string PATH = "Database/Usuario.csv";
+        public string PATH = "Database/Usuario.csv";
+
 
     
         public Usuario()

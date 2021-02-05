@@ -1,18 +1,27 @@
 using System.Collections.Generic;
-using EPlayers_AspNetCore.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Projeto_InstaDev.models;
+
+
 
 namespace Projeto_InstaDev.Controllers
 {
         [Route("Login")]
-    public class LoginController : Controller
-    {
+        public class LoginController : Controller
+        {
+
         [TempData]
         public string Mensagem { get; set; }
         
+        public LoginController(string mensagem) 
+        {
+            this.Mensagem = mensagem;
+               
+        }
         
-        Jogador UsuarioModel = new Usuario();
+        
+        Usuario usuarioModel = new Usuario();
 
         public IActionResult Index()
         {
@@ -23,7 +32,7 @@ namespace Projeto_InstaDev.Controllers
         public IActionResult Logar(IFormCollection form)
         {
             // Lemos todos os arquivos do CSV
-            List<string> csv = FeedModel.ReadAllLinesCSV(FeedModel.PATH);
+            List<string> csv = usuarioModel.ReadAllLinesCSV(usuarioModel.PATH);
 
             // Verificamos se as informações passadas existe na lista de string
             var logado = 
@@ -39,10 +48,10 @@ namespace Projeto_InstaDev.Controllers
             {
                 //Criamos uma sessão com os dados do usuário
                 HttpContext.Session.SetString("_UserName", logado.Split(";")[1]);
-                return LocalRedirect("~/");
+                return LocalRedirect("~/Feed");
             }
 
-            Mensagem = "Dados incorretos, tente novamente...";
+            Mensagem = "Senha ou nome de Usuario incorreto, tente novamente";
             return LocalRedirect("~/Login");
         }
 
@@ -50,7 +59,7 @@ namespace Projeto_InstaDev.Controllers
         public IActionResult Logout()
         {
             HttpContext.Session.Remove("_UserName");
-            return LocalRedirect("~/");
+            return LocalRedirect("~/Login");
         }
             }
 }

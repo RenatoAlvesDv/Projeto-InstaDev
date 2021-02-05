@@ -1,6 +1,5 @@
 using System.Collections.Generic;
-using EPlayers_AspNetCore.Models;
-
+using Projeto_InstaDev.models;
 
 namespace Projeto_InstaDev.Interfaces
 {
