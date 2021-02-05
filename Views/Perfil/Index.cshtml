@@ -2,40 +2,41 @@
     ViewData["Title"] = "Perfil";
 }
 
-<link rel="stylesheet" href="~/css/stylePerfil.css">
+ <main class="main">
+            <div class="perfil"> 
+            <!--Perfil-->
+                    <div class="perfil-todo">
+                        <div class="content">
+                            <div class="flex">
+                                <div class="f-perfil">
+                               <a asp-area="EditarPerfil" asp-controller="EditarPerfil" asp-action="Index" > <img class="img-perfil"  src="img/thank-you 3.png" alt="Foto de Perfil do Usuário"> </a>
+                                </div>
+                                <div class="info">
+                                    <div class="username">
+                                        <h1>yes_baby</h1>
+                                    
+                                    </div>
+                                    <div class="infop">
+                                        <p class="pu">2 publicações</p>
+                                        <p class="pu">128 seguindo</p>
+                                        <p class="pu">214 seguidores</p>
+                                    </div>
+                                    <div class="nome">
+                                        <h2>Marcos Jeeves</h2>
+                                        <a href="#">Sair</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>           
+            <!--Fim Perfil-->
 
-<section class="perfil content flex-bt-center">
-    <div>
-        <img src="~/img/Perfil/@ViewBag.perfil.Foto" alt="Imagem do perfil">
-    </div>
-    <div class="info">
-        <div class="nick">
-            <p>@ViewBag.perfil.NomeDoUsuario</p>
-        </div>
-        <div class="contadores">
-            <p>@ViewBag.publicacao.Count publicações</p>
-            <p class="pu">128 seguindo</p>
-            <p class="pu">214 seguidores</p>
-        </div>
-        <div class="flex-bt-center">
-            <p class="nome">@ViewBag.perfil.NomeCompleto</p>
-            <a aria-label="Link para a pagina de editar perfil" asp-controller="Editar" class="link-style">Editar Perfil</a>
-            <a aria-label="link para logout" asp-controller="Perfil" asp-action="Sair" class="link-style">Sair</a>
-        </div>
-    </div>
-</section>
-
-<hr class="solid content">
+                    <!--Linha-->       
+                    <hr class="linha" size="2" width="100%" color="#EEEEEE">
+                    <!-- Fim linha-->
 
 
-<div class="pub">
-<div class="publi">
-<img class="meio" src="img/pub.png">
-<h3>PUBLICAÇÕES</h3> 
-  </div>    
-
-
-        <!--Publicações-->
+                    <!--Publicações-->
                             <div class="pub">
                                 <div class="publi">
                                     <img class="meio" src="img/pub.png">
@@ -97,4 +98,6 @@
                                     </section>  
                                 </div> 
                             </div>    
-    }
+                         <!--Fim publicação--> 
+            </div>                  
+        </main>            

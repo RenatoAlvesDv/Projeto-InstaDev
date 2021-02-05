@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+:root{
+    --font: 'Roboto', sans-serif;
+    --fonteCinza: #909090;
+}
+.topo{
+    /* position: absolute; */
+    width: 1920px;
+    height: 53px;
+    left: 0px;
+    top: 0px;
+    background: var(--background);
+    border: 1px solid #F1F1F1;
+    box-sizing: border-box;
+}
+.logo{
+    
+  margin-left: 122px;
+  
+
+}
+.fotop{
+    width: 32px;
+    height: 32px;
+    
+
+}
+.content-topo{
+    width: 940px;
+    left: 0px;
+    top: 5px;
+    
+   
+    /* font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 37px;
+    color: var(--preto) */    
+}
+
+.menu ul{
+    width: 235px;
+    height: 28px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -20px;
+    margin-left: 800px;
+
+}
+
+.menu h1{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    margin-left: -260px;
+    color: #909090;
+    justify-content: space-around;
+    background: #FAFAFA;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    border-radius: 2px;
+    top: 8px;
+}
+
+.pesquisar h1{
+    /*position: absolute;*/
+    width: 215px;
+    height: 28px;
+    left: 500px;
+    top: 12px;
+    margin-left: 0px;
+}
+/* HEADER - final */
+
+.main {
+    background: #fafafa;
+    width:  1260px;;
+    height: 1500px;
+    position: relative;
+
+}
+
+.perfil{
+    width: 940px;
+    left: 492px;
+    top: 10px;
+    margin: auto; 
+}
+
+.buttom{
+    margin-top: 15px;
+    
+}
+
+/*Perfil topo*/
+.perfil-todo{
+    width: 165px;
+    height: 250px;
+    
+
+}
+
+.content{
+    width: 95%;
+    max-width: 75em;
+    height: 100%;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 1000px;
+    height: 100%;
+    
+}
+
+.f-perfil{
+    width: 100px;
+    height: 1000px;
+    margin: 0 5% 0 10em;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+
+
+.img-perfil{
+    margin-left: -55px;
+}
+
+.info{
+    width: 45%;
+}
+
+.username{
+    width: 203px;
+    height: 30px;
+    font-family:var(--font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    
+
+}
+
+.infop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 10px;
+    
+    
+}
+
+
+
+/*Perfi fim*/
+
+
+.linha{
+     width: 926.04px;
+    height: 0px;
+    left: 490px;
+    top: 278px;
+    border: 1px solid #DCDCDC;
+    
+}
+.nome{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.nome h2{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.nome a{
+    font-weight: 600;
+   /* margin-left: 10px;*/
+}    
+
+
+.pub{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.meio{
+    align-items: center;
+}
+.pu{
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    
+    
+  
+   
+}
+.card{
+    width: 430px;
+    height: 404px;
+    /*left: 487px;*/
+    top: 365px;
+}
+
+
+.publi{
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+    
+    
+}
+
+
+.publi h3{
+    width: 138px;
+    height: 21px;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-family: var(--font);
+    font-weight: 300px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+
+}
+
+.publicacao-toda{
+    margin: auto;
+    width: 100%;
+    height: 100px;
+
+    
+
+}
+.publicacao{
+    width: 934px;
+    height: 404px;
+    left: 805px;
+    top: 285px;
+    background:#FFFFFF;
+    border: #FFFFFF;
+    
+}
+
+.publicacao1{  
+    width: 934px;
+    height: 404px;
+    left: 805px;
+    margin-top: 50px;
+    background:#FFFFFF;
+    border: #FFFFFF;
+}
+
+.foto-profile{
+    width: 65px;
+    height: 66px;
+    margin-left: 0px;
+    margin-top: 10px; 
+    border-radius: 115.5px;
+}
+
+.flex-center-bt{
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-right: 50px;
+       
+}
+
+.foto-postagem{
+    width: 430px;
+    height: 404px;
+    left: 487px;
+    top: 365px
+}
+
+.postagem-perfil{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 40px;
+    
+}
+.nome-perfil h3{
+
+    width: 111px;
+    height: 17px;
+    margin-left: 20px;
+    margin-top: 27px;
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+
+}
+
+.nome-perfil p{ 
+    width: 138px;
+    height: 21px;
+    margin-left: 20px;
+    margin-top: -4px;
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+
+.icon{
+    margin-left: 0px;
+    justify-content: start;
+    margin-left: 40px;
+    
+
+}
+
+.curti{
+    margin-right: 10px;
+    margin-top: 20px; 
+}
+
+
+
+.curtidas{
+    width: 114px;
+    height: 17px;
+    margin-top: -3px;
+    font-family: 'Segoe UI', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;
+    justify-content: start;
+    margin-left: 40px;
+
+
+}
+
+/* Comentarios*/
+.post-comentarios{    
+    color: #000000;
+    Float:left;
+    Width: auto;
+    Flex: 1 1 10em;
+    justify-content: start;
+    margin-left: 40px;
+    
+}
+
+
+.name{
+    width: 90px;
+    font-family: 'Segoe UI', sans-serif;
+    flex-flow: row nowrap;
+    font-weight: bold;
+    padding-right: 1em;
+    font-size: 13px;
+    margin-top: 50px;
+    color: #000000;
+
+}
+
+.iconc{
+    float: right;
+    padding-left: 80px ;
+    
+}
+
+
+.post-comentarios p{
+    font-size: 13px;
+}
+
+
+.mais{
+    width: 187px;
+    height: 21px;
+    left: 956px;
+    margin-top: 35px;
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #909090;
+    
+}
+/* Fim comentarios*/
+
+/* FOOTER - inicio */
+footer{
+    height: 100px;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    font-size: 12px;
+    color: var(--fonteCinza);
+    padding: 25px;
+
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: 400;
+    color: var(--fonteCinza)
+}
+
+footer .linhaUm{
+    margin-bottom: 15px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+footer .linhaDois{
+    width: 400px;
+    margin: auto;
+    margin-bottom: 15px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+/* FOOTER - final */
