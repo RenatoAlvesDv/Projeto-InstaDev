@@ -1,3 +1,4 @@
+@using Projeto_InstaDev.Models
 @Model Publicacao
 @{
     ViewData["Title"] = "Publi";
@@ -32,7 +33,8 @@
                 <td>@publicacao.IdUsuario</td>
                 <td>@publicacao.Legenda</td>
                 <td><img src="/img/Publicacoes/@publicacao.Imagem" alt="Publicação no fotmato foto" width="715"></td>
-                <td><a asp-area="Link exclusão" asp-controller="Publicacao" asp-action="Excluir" asp-route-id="@publicacao.IdPublicacao">Excluir</a></td>                
+                <td><a asp-area="Link exclusão" asp-controller="Publicacao" asp-action="Excluir" asp-route-id="@publicacao.IdPublicacao">Excluir</a></td>  
+                @* <td><a asp-area="Curir" asp-controller="Publicacao" asp-action="Curtir" asp-route-id="@publicacao.Curtir"></a>Curtir</td>               *@
             </tr>
         }
     </tbody>

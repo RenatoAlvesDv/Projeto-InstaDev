@@ -68,23 +68,23 @@ namespace Projeto_InstaDev.Models
             RewriteCSV(PATH, linhas); 
         }
 
-        // public bool Curtir() // VERIFICAR SE ESTRUTURA ESTÁ CORRETA
-        // {
-        //     bool   curtir  = false;
-        //     int    curtida = 0;            
+        public bool Curtir() // VERIFICAR SE ESTRUTURA ESTÁ CORRETA
+        {
+            bool   curtir  = false;
+            int    curtida = 0;            
             
 
-        //     if (curtir == true)
-        //     {
-        //         curtida++;
-        //         System.Console.WriteLine($"{curtida} like(s)");
-        //     }
-        //     else
-        //     {
-        //         System.Console.WriteLine($"{curtida} like(s)");
-        //     }
+            if (curtir == true)
+            {
+                curtida++;
+                System.Console.WriteLine($"{curtida} like(s)");
+            }
+            else
+            {
+                System.Console.WriteLine($"{curtida} like(s)");
+            }
 
-        //     return true;
+            return true;
 
             // criar um csv que colete o id de user e id publi + count
             // método listar pelo ID - pegar pela session http session get string
@@ -94,6 +94,6 @@ namespace Projeto_InstaDev.Models
             //método para buscar por ID
             //foreach
             //viewbag
-        // }
+        }
     }
 }

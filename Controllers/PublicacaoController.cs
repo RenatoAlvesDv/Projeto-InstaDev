@@ -88,6 +88,14 @@ namespace Projeto_InstaDev.Controllers
 
             return LocalRedirect("~/Publicar/Lista");
         }
+        [Route ("Curtir")]
+        public IActionResult Curtir(bool curtida)
+        {
+            publis.Curtir();
+            ViewBag.Publicacoes = publis.ReadAll();
+            
+            return LocalRedirect("~/Publicar/Lista");
+        }
 
         [Route("{id}")]
 
