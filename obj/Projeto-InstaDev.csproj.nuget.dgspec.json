@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\renat\\OneDrive\\Área de Trabalho\\Projeto-InstaDev\\Projeto-InstaDev.csproj": {}
+    "C:\\Users\\New Force\\Desktop\\Projeto-InstaDev\\Projeto-InstaDev.csproj": {}
   },
   "projects": {
-    "C:\\Users\\renat\\OneDrive\\Área de Trabalho\\Projeto-InstaDev\\Projeto-InstaDev.csproj": {
+    "C:\\Users\\New Force\\Desktop\\Projeto-InstaDev\\Projeto-InstaDev.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renat\\OneDrive\\Área de Trabalho\\Projeto-InstaDev\\Projeto-InstaDev.csproj",
+        "projectUniqueName": "C:\\Users\\New Force\\Desktop\\Projeto-InstaDev\\Projeto-InstaDev.csproj",
         "projectName": "Projeto-InstaDev",
-        "projectPath": "C:\\Users\\renat\\OneDrive\\Área de Trabalho\\Projeto-InstaDev\\Projeto-InstaDev.csproj",
-        "packagesPath": "C:\\Users\\renat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renat\\OneDrive\\Área de Trabalho\\Projeto-InstaDev\\obj\\",
+        "projectPath": "C:\\Users\\New Force\\Desktop\\Projeto-InstaDev\\Projeto-InstaDev.csproj",
+        "packagesPath": "C:\\Users\\New Force\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\New Force\\Desktop\\Projeto-InstaDev\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\renat\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\New Force\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

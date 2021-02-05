@@ -4,7 +4,7 @@
     --fonteCinza: #909090;
 }
 .topo{
-    /* position: absolute; */
+    position: absolute; 
     width: 1920px;
     height: 53px;
     left: 0px;

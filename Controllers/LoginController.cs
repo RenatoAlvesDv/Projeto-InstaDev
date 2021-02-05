@@ -5,21 +5,12 @@ using Projeto_InstaDev.models;
 
 
 
+
 namespace Projeto_InstaDev.Controllers
 {
-        [Route("Login")]
-        public class LoginController : Controller
-        {
-
-        [TempData]
-        public string Mensagem { get; set; }
-        
-        public LoginController(string mensagem) 
-        {
-            this.Mensagem = mensagem;
-               
-        }
-        
+     [Route("Login")]
+    public class LoginController : Controller
+    {
         
         Usuario usuarioModel = new Usuario();
 
@@ -28,38 +19,37 @@ namespace Projeto_InstaDev.Controllers
             return View();
         }
 
+        
+        [TempData]
+        public string Mensagem { get; set; }
+
+        
         [Route("Logar")]
         public IActionResult Logar(IFormCollection form)
         {
             // Lemos todos os arquivos do CSV
-            List<string> csv = usuarioModel.ReadAllLinesCSV(usuarioModel.PATH);
+            List<string> csv = usuarioModel.ReadAllLinesCSV("Database/Usuario.csv");
 
             // Verificamos se as informações passadas existe na lista de string
             var logado = 
             csv.Find(
                 x => 
-                x.Split(";")[2] == form["Email"] && 
-                x.Split(";")[3] == form["Senha"]
+                x.Split(";")[5] == form["Email"] && 
+                x.Split(";")[7] == form["Senha"]
             );
 
+            
 
             // Redirecionamos o usuário logado caso encontrado
             if(logado != null)
             {
-                //Criamos uma sessão com os dados do usuário
-                HttpContext.Session.SetString("_UserName", logado.Split(";")[1]);
+                HttpContext.Session.SetString("IdLogado", logado.Split(";")[0]);
                 return LocalRedirect("~/Feed");
             }
 
-            Mensagem = "Senha ou nome de Usuario incorreto, tente novamente";
-            return LocalRedirect("~/Login");
-        }
+            Mensagem = "Dados incorretos, tente novamente...";
+            return LocalRedirect("~/login");
 
-        [Route("Logout")]
-        public IActionResult Logout()
-        {
-            HttpContext.Session.Remove("_UserName");
-            return LocalRedirect("~/Login");
-        }
             }
+    }
 }
