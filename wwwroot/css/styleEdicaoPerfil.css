@@ -51,7 +51,7 @@
 .menu ul{
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: -35px;
     margin-left: 850px;
 }
@@ -383,6 +383,7 @@
     color: var(--azul);
     background-color: #FFFFFF;
 }
+
 
 
 
