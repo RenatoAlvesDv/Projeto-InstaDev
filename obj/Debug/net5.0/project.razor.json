@@ -15638,6 +15638,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\New Force\\Desktop\\Projeto-InstaDev\\Views\\Publicacao\\index.cshtml",
+      "TargetPath": "Views\\Publicacao\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\New Force\\Desktop\\Projeto-InstaDev\\Views\\Comentario\\index.cshtml",
+      "TargetPath": "Views\\Comentario\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\New Force\\Desktop\\Projeto-InstaDev\\Views\\Perfil\\Index.cshtml",
       "TargetPath": "Views\\Perfil\\Index.cshtml",
       "FileKind": "mvc"

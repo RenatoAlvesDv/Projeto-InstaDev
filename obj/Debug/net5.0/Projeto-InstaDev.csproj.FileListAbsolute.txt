@@ -66,7 +66,6 @@ C:\Users\erika\Desktop\PROJETOS SENAI\Nova pasta\Projeto-InstaDev\obj\Debug\net5
 C:\Users\erika\Desktop\PROJETOS SENAI\Nova pasta\Projeto-InstaDev\obj\Debug\net5.0\Projeto-InstaDev.TagHelpers.output.cache
 C:\Users\erika\Desktop\PROJETOS SENAI\Nova pasta\Projeto-InstaDev\obj\Debug\net5.0\Projeto-InstaDev.RazorCoreGenerate.cache
 C:\Users\erika\Desktop\PROJETOS SENAI\Nova pasta\Projeto-InstaDev\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\erika\Desktop\PROJETOS SENAI\Nova pasta\Projeto-InstaDev\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\erika\Desktop\PROJETOS SENAI\Nova pasta\Projeto-InstaDev\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\erika\Desktop\PROJETOS SENAI\Nova pasta\Projeto-InstaDev\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\erika\Desktop\PROJETOS SENAI\Nova pasta\Projeto-InstaDev\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
@@ -79,6 +78,7 @@ C:\Users\erika\Desktop\PROJETOS SENAI\Nova pasta\Projeto-InstaDev\obj\Debug\net5
 C:\Users\erika\Desktop\PROJETOS SENAI\Nova pasta\Projeto-InstaDev\obj\Debug\net5.0\Projeto-InstaDev.pdb
 C:\Users\erika\Desktop\PROJETOS SENAI\Nova pasta\Projeto-InstaDev\obj\Debug\net5.0\Projeto-InstaDev.genruntimeconfig.cache
 C:\Users\erika\Desktop\PROJETOS SENAI\Nova pasta\Projeto-InstaDev\obj\Debug\net5.0\Projeto-InstaDev.csproj.CopyComplete
+<<<<<<< HEAD
 >>>>>>> origin/cadastro
 C:\Users\New Force\Desktop\Projeto-InstaDev\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\New Force\Desktop\Projeto-InstaDev\bin\Debug\net5.0\appsettings.json
@@ -121,3 +121,7 @@ C:\Users\New Force\Desktop\Projeto-InstaDev\obj\Debug\net5.0\Projeto-InstaDev.pd
 C:\Users\New Force\Desktop\Projeto-InstaDev\obj\Debug\net5.0\Projeto-InstaDev.genruntimeconfig.cache
 C:\Users\New Force\Desktop\Projeto-InstaDev\obj\Debug\net5.0\Projeto-InstaDev.csproj.CopyComplete
 C:\Users\New Force\Desktop\Projeto-InstaDev\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
+=======
+C:\Users\erika\Desktop\PROJETOS SENAI\Nova pasta\Projeto-InstaDev\obj\Debug\net5.0\Razor\Views\Comentario\index.cshtml.g.cs
+C:\Users\erika\Desktop\PROJETOS SENAI\Nova pasta\Projeto-InstaDev\obj\Debug\net5.0\Razor\Views\Publicacao\index.cshtml.g.cs
+>>>>>>> 7c9c356a2626fa10ddc70d31a03a046d0e95d957

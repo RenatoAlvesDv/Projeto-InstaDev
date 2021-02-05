@@ -11,7 +11,7 @@ namespace Projeto_InstaDev.Models
         public int Likes { get; set; }
         public string Imagem { get; set; }        
         public string Legenda { get; set; }
-        public string PATH = "Database/Publicacao.csv";
+        public string PATH = "Database/Publicacoes.csv";
         
         
 
@@ -68,9 +68,32 @@ namespace Projeto_InstaDev.Models
             RewriteCSV(PATH, linhas); 
         }
 
-        public string Curtir()
-        {//bool - condicional 
-            return "";
-        }
+        // public bool Curtir() // VERIFICAR SE ESTRUTURA ESTÁ CORRETA
+        // {
+        //     bool   curtir  = false;
+        //     int    curtida = 0;            
+            
+
+        //     if (curtir == true)
+        //     {
+        //         curtida++;
+        //         System.Console.WriteLine($"{curtida} like(s)");
+        //     }
+        //     else
+        //     {
+        //         System.Console.WriteLine($"{curtida} like(s)");
+        //     }
+
+        //     return true;
+
+            // criar um csv que colete o id de user e id publi + count
+            // método listar pelo ID - pegar pela session http session get string
+            // metodo findAll 
+
+
+            //método para buscar por ID
+            //foreach
+            //viewbag
+        // }
     }
 }

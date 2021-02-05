@@ -1,0 +1,39 @@
+@Model Publicacao
+@{
+    ViewData["Title"] = "Publi";
+}
+
+<form method = "POST" action='@Url.Action("Publicar")' enctype = "multipart/form-data">
+    <label for="">ID</label>
+    <input type="text" name="IdPublicacao"/>
+
+    <label for="">ID User</label>
+    <input type="text" name="IdUsuario"/>
+
+    <label>Legenda</label>
+    <input type="text" name="Legenda" />
+
+    <label>Imagem</label>
+    <input type="file" name="Imagem" />
+
+    <button type="submit">Postar</button>
+</form>
+<table>
+    <thead>
+        <th>ID PUBLICAÇÃO</th>
+        <th>LEGENDA</th>
+        <th>IMAGEM</th>
+    </thead>
+    <tbody>
+        @foreach (Publicacao publicacao in ViewBag.Publicacoes)
+        {
+            <tr>
+                <td>@publicacao.IdPublicacao</td>
+                <td>@publicacao.IdUsuario</td>
+                <td>@publicacao.Legenda</td>
+                <td><img src="/img/Publicacoes/@publicacao.Imagem" alt="Publicação no fotmato foto" width="715"></td>
+                <td><a asp-area="Link exclusão" asp-controller="Publicacao" asp-action="Excluir" asp-route-id="@publicacao.IdPublicacao">Excluir</a></td>                
+            </tr>
+        }
+    </tbody>
+</table>
