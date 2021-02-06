@@ -29,7 +29,7 @@ namespace Projeto_InstaDev.Models
                 string linha;
                 while ((linha = file.ReadLine()) != null)
                 {
-                        linhas.Add(linha);
+                    linhas.Add(linha);
                 }
                 return linhas;            
             }
