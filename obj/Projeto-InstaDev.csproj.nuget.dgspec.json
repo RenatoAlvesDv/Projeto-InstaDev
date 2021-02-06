@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\Desktop\\Projetos SENAI\\Projetos MVC\\Projeto InstaDev\\Projeto-InstaDev\\Projeto-InstaDev.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "D:\\Desktop\\Projetos SENAI\\Projetos MVC\\Projeto InstaDev\\Projeto-InstaDev\\Projeto-InstaDev.csproj",
         "packagesPath": "C:\\Users\\Pedro\\.nuget\\packages\\",
         "outputPath": "D:\\Desktop\\Projetos SENAI\\Projetos MVC\\Projeto InstaDev\\Projeto-InstaDev\\obj\\",
+=======
+    "C:\\Users\\New Force\\Desktop\\Projeto-InstaDev\\Projeto-InstaDev.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\New Force\\Desktop\\Projeto-InstaDev\\Projeto-InstaDev.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\New Force\\Desktop\\Projeto-InstaDev\\Projeto-InstaDev.csproj",
+        "projectName": "Projeto-InstaDev",
+        "projectPath": "C:\\Users\\New Force\\Desktop\\Projeto-InstaDev\\Projeto-InstaDev.csproj",
+        "packagesPath": "C:\\Users\\New Force\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\New Force\\Desktop\\Projeto-InstaDev\\obj\\",
+>>>>>>> 60957795a435fcb17ad40bc6c4821b868329a634
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pedro\\AppData\\Roaming\\NuGet\\NuGet.Config"

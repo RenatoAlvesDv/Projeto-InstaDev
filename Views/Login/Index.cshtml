@@ -1,0 +1,41 @@
+@{
+    ViewData["Title"] = "Login";
+}
+
+<body>
+    
+    <section class="login">
+            <div class="logincentral">
+
+        <img src="/img/Instadev.svg" alt="Logo Instadev">
+
+        
+            <form method="POST" action='@Url.Action("Logar")'>
+                <input type="email" name="Email" size="27" value="Email"  required />
+                <input type="senha" name="Senha" size="27" value="Senha"  required />
+                <button  type="submit" >Login</button>
+            </form>
+
+        <div class="ou">
+                    <h1>OU</h1>
+                </div>
+                <a href="#">Esqueceu a senha?</a>
+        
+        </div>
+    </section>
+        <section class="cadastre-se">
+            <h2>Não tem uma conta? <a href="#">Cadastre-se</a></h2>
+        </section>
+
+    <div class="mobile">
+            <p>Obtenha o aplicativo.</p>
+            <div class="lojas">
+                <a href="#"><img src="/img/app_store 1.png" alt="Baixe na App Store"></a>
+                <a href="#"><img src="/img/google_play 1.png" alt="Baixe na Google Play"></a>
+            </div>
+        </div>
+
+</body>
+
+
+                

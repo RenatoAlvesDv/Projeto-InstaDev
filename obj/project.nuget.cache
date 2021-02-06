@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "1lOIDF38+MvdWqbac1hK+NiEJPGZkNPRRKn+tnsg25lWk6CRyC9H3tn1C9El9l9ZeWlScJy7vOvmCSD99R7b5w==",
   "success": true,
   "projectFilePath": "D:\\Desktop\\Projetos SENAI\\Projetos MVC\\Projeto InstaDev\\Projeto-InstaDev\\Projeto-InstaDev.csproj",
+=======
+  "dgSpecHash": "pR5eG+tGj3K193PFIpLKGa62/LCZXm1G6oH0x8ZOqUh54ypHzAAOwcgDZYuynDag5rI1IBVdKwpPOug3QF53Rw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\New Force\\Desktop\\Projeto-InstaDev\\Projeto-InstaDev.csproj",
+>>>>>>> 60957795a435fcb17ad40bc6c4821b868329a634
   "expectedPackageFiles": [],
   "logs": []
 }

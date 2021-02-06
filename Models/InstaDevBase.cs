@@ -27,23 +27,20 @@ namespace Projeto_InstaDev.Models
             using(StreamReader file = new StreamReader(path))
             {
                 string linha;
-
                 while ((linha = file.ReadLine()) != null)
                 {
-                    linhas.Add(linha);
+                        linhas.Add(linha);
                 }
+                return linhas;            
             }
-
-            return linhas;            
-        }
-        
+        }     
         public void RewriteCSV(string _path, List<string> linhas)
         {
             using(StreamWriter saida = new StreamWriter(_path))
             {
                 foreach (var item in linhas)
                 {
-                    saida.Write(item + '\n');
+                        saida.Write(item + '\n');
                 }
             }
         }

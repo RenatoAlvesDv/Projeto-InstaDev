@@ -10,7 +10,7 @@ namespace Projeto_InstaDev.Models
        public string Email {get;set;}
        public string Nomeusuario {get;set;}
        public string User {get;set;}
-       private const string  PATH = "Database/Usuário.csv";
+       private const string  PATH = "Database/Edição.csv";
 
         public EditarPerfil(){
             CreateFolderAndFile(PATH);

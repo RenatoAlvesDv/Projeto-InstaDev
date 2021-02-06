@@ -89,7 +89,10 @@
     margin: auto; 
 }
 
-
+.buttom{
+    margin-top: 15px;
+    
+}
 
 /*Perfil topo*/
 .perfil-todo{
