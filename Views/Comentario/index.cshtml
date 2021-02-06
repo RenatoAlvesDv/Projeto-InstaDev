@@ -1,0 +1,40 @@
+@model Comentario
+@{
+    ViewData["Title"] = "Comentario";
+}
+<form method="POST" action='@Url.Action("Comentar")'>
+    <label>ID</label>
+    <input type="text" name="IdComentario"/>
+
+    <label>Mensagem</label>
+    <input type="text" name="Mensagem"/>
+    
+    <label>ID Usuário</label>
+    <input type="text" name="IdUsuario">
+
+    <label>ID Publicação</label>
+    <input type="text" name="IdPublicacao">
+
+    <button type="submit">Comentar</button>
+</form>
+
+<table>
+    <thead>
+        <th>ID COMENTARIO</th>
+        <th>MENSAGEM</th>
+        <th>ID User</th>
+        <th>ID Publi</th>
+    </thead>
+    <tbody>
+        @foreach (Comentario comentario in ViewBag.Comentario)
+        {
+            <tr>
+                <td>@comentario.IdComentario</td>
+                <td>@comentario.Mensagem</td>
+                <td>@comentario.IdUsuario</td>
+                <td>@comentario.IdPublicacao</td>
+                <td><a asp-area="Link exclusão" asp-controller="Comentario" asp-action="Excluir" asp-route-id="@comentario.IdComentario">Excluir</a></td>  
+            </tr>
+        }
+    </tbody>
+</table>

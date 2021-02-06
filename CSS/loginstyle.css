@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --preto:      #000000;
+    --preto2:     #353535; 
+    --fonteCinza: #909090;
+    --escolhaIMG: #D1D1D1;
+    --backSearch: #DCDCDC;
+    --background: #fafafa;
+    --lilas:      #8134AF;
+    --roxo:       #515BD4;
+    --azul:       #2686CC;
+    --rosa:       #DD2A7B;
+    --laranja:    #F58529;
+    --amarelo:    #FEDA77;
+}
+.login{
+    width: 345px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 1px solid #F1F1F1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 60px;
+}
+.logincentral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logincentral img{
+    padding-bottom: 30px ;
+}
+.logincentral input{
+    color: var(--fonteCinza);
+    border: 1px solid #DCDCDC;
+    background-color:var(--background);
+    width: 265px;
+    height: 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    padding: 12px;
+}
+.logincentral button{
+    width: 290px;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 2px;
+    border-color: var(--azul);
+    color: #fff;
+    background-color: var(--azul);
+    border: none;
+}
+.ou{
+    display: flex;
+    flex-direction: row;
+}
+.ou h1{
+    font-weight: 400;
+    color: #909090;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.login a{
+    text-decoration: none;
+    color: #2686CC;
+    font-weight: 400;
+}
+.cadastre-se{
+    height: 60px;
+    width: 345px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F1F1F1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.cadastre-se h2{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--preto2);
+}
+.cadastre-se a{
+    text-decoration: none;
+    color: #2686CC;
+}
+.mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mobile p{
+    color: #353535;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
