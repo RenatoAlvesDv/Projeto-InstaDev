@@ -1,8 +1,15 @@
 {
+<<<<<<< HEAD
   "FilePath": "d:\\Desktop\\Projetos SENAI\\Projetos MVC\\Projeto InstaDev\\Projeto-InstaDev\\Projeto-InstaDev.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
+=======
+  "FilePath": "c:\\Users\\erika\\Desktop\\PROJETOS SENAI\\Nova pasta\\Projeto-InstaDev\\Projeto-InstaDev.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "5.0",
+>>>>>>> 60957795a435fcb17ad40bc6c4821b868329a634
     "Extensions": [
       {
         "ExtensionName": "MVC-3.0"
@@ -10,6 +17,7 @@
     ]
   },
   "ProjectWorkspaceState": {
+<<<<<<< HEAD
     "TagHelpers": [
       {
         "HashCode": 2012882598,
@@ -14390,30 +14398,21 @@
     "CSharpLanguageVersion": 800
   },
   "RootNamespace": "Projeto_InstaDev",
+<<<<<<< HEAD
   "Documents": [
-    {
-      "FilePath": "d:\\Desktop\\Projetos SENAI\\Projetos MVC\\Projeto InstaDev\\Projeto-InstaDev\\Views\\Perfil\\Index.cshtml",
-      "TargetPath": "Views\\Perfil\\Index.cshtml",
-      "FileKind": "mvc"
-    },
     {
       "FilePath": "d:\\Desktop\\Projetos SENAI\\Projetos MVC\\Projeto InstaDev\\Projeto-InstaDev\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Desktop\\Projetos SENAI\\Projetos MVC\\Projeto InstaDev\\Projeto-InstaDev\\Views\\Login\\Index.cshtml",
-      "TargetPath": "Views\\Login\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Desktop\\Projetos SENAI\\Projetos MVC\\Projeto InstaDev\\Projeto-InstaDev\\Views\\Comentario\\index.cshtml",
-      "TargetPath": "Views\\Comentario\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "d:\\Desktop\\Projetos SENAI\\Projetos MVC\\Projeto InstaDev\\Projeto-InstaDev\\Views\\EditarPerfil\\Index.cshtml",
       "TargetPath": "Views\\EditarPerfil\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Desktop\\Projetos SENAI\\Projetos MVC\\Projeto InstaDev\\Projeto-InstaDev\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14435,12 +14434,17 @@
       "FilePath": "d:\\Desktop\\Projetos SENAI\\Projetos MVC\\Projeto InstaDev\\Projeto-InstaDev\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Desktop\\Projetos SENAI\\Projetos MVC\\Projeto InstaDev\\Projeto-InstaDev\\Views\\Publicacao\\index.cshtml",
-      "TargetPath": "Views\\Publicacao\\index.cshtml",
-      "FileKind": "mvc"
     }
   ],
+=======
+  "Documents": [],
+>>>>>>> develop
+=======
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 800
+  },
+  "RootNamespace": "Projeto_InstaDev",
+  "Documents": [],
+>>>>>>> 60957795a435fcb17ad40bc6c4821b868329a634
   "SerializationFormat": "0.2"
 }

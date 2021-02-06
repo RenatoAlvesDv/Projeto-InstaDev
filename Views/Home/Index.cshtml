@@ -1,17 +1,59 @@
 ﻿@{
+    ViewData["Title"] = "Editar-Perfil";
+}
+<a class="navbar-brand" asp-area="" asp-controller="EditarPerfil" asp-action="Index">Edição de Perfil</a>
+<div class="btn-enviar">
+    <a asp-area="Link para efetuar mudanças" asp-controller="EditarPerfil" asp-action="Index" class="Enviar">Enviar</a>
+</div>
+
+<section class="perfil">
+    <div class="editar-perfil">
+        <h2>Editar Perfil</h2>
+        <img src="Images/Jeeves redondo.png">
+        <div class="nickname">
+            <p>yes_baby</p>
+            <h2>Alterar foto de perfil</h2>
+        </div>
+    </div>
+    <div class="info-nome">
+        <h2>Nome</h2>
+        <p>Ajude as pessoas a descobrir a sua conta usando o nome pelo qual você é conhecido:seu nome completo,apelido
+            ou nome comercial. <br> Você pode alterar seu nome apenas duas vezes a cada 14 dias.</p>
+        <div class="espaco-nome">
+            <input type="text" id="nome" name="name">
+        </div>
+    </div>
+    <div class="info-nome-user">
+        <h2>Nome de usuário</h2>
+        <p>Na maioria dos casos,você poderá alterar seu nome de usuário novamente para nascimento_tr em 14 dias.</p>
+        <div class="espaco-nome-user">
+            <input type="text" id="nome us" name="nome-user">
+        </div>
+    </div>
+    <div class="info-email">
+        <h2>Email</h2>
+        <p>Informações pessoais <br> Forneça suas informações pessoais,mesmo se a conta for usada para uma empresa,um
+            animal de estimação ou outra coisa.Elas não farão parte de seu perfil público.</p>
+        <div class="espaco-email">
+            <input type="email" id="email" name="espaco-email">
+        </div>
+    </div>
+    <div class="btn-enviar">
+        <input type="button" value="Enviar">
+    </div>
+    <div class="btn-excluir">
+        <input type="button" value="Desativar minha conta definitivamente">
+    </div>
+</section>
+=======
     ViewData["Title"] = "Feed";
 }
 
 <div class="text-center">
-<<<<<<< HEAD
     <h1 class="display-4">Welcome</h1>
     <a asp-area="" asp-controller="Perfil" asp-action="Index" class="btn gradient">Perfil</a>
     <a asp-area="" asp-controller="Login" asp-action="Index" class="btn gradient">Login</a>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-=======
-    <a class="navbar-brand" asp-area="" asp-controller="Comentario" asp-action="Index">Comentario</a>   
-    <a class="navbar-brand" asp-area="" asp-controller="Publicacao" asp-action="Index">Publi</a>     
->>>>>>> 7c9c356a2626fa10ddc70d31a03a046d0e95d957
 </div>
 <div class = "content">
     <!-- Ínicio Aside -->

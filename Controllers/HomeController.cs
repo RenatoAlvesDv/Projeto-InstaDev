@@ -26,7 +26,6 @@ namespace Projeto_InstaDev.Controllers
         public IActionResult Privacy()
         {
             return View();
-        }
-        
+        } 
     }
 }

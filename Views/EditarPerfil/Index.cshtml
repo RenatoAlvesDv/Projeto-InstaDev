@@ -1,0 +1,47 @@
+@model EditarPerfil
+@{
+    ViewData["Title"] = "Editar-Perfil";
+}
+
+<form class="Editar-Perfil" action='@Url.Action("Editar-Perfil")' method="POST" enctype="multipart/form-data">
+
+    <div class="campo">
+        <label for="Nome">Nome</label>
+        <input type="text" name="Nome" id="Nome">
+    </div>
+
+    <div class="campo">
+        <label for="Nomeusuario">Nome de usuário</label>
+        <input type="text" name="Nome-usuario" id="Nome-usuario">
+    </div>
+
+    <div class="campo">
+        <label for="Email">Email</label>
+        <input type="email" name="Email" id="Email">
+    </div>
+
+    <button class="Enviar">Enviar</button>
+    <button class="Desativar-conta">Desativar minha conta permanentemente</button>
+
+</form>
+
+<table class="table table-striped table-responsive">
+
+    <thead>
+        <th>Nome</th>
+        <th>Nome de usuário</th>
+        <th>Email</th>
+    </thead>
+    <tbody>
+        @foreach (EditarPerfil usuario in ViewBag.EditarPerfil)
+        {
+            <tr>
+                <td>@usuario.Nome</td>
+                <td>@usuario.Nomeusuario</td>
+                <td>@usuario.Email</td>
+                <td><a asp-area="Link para excluir um perfil" asp-controller="EditarPerfil" asp-action="Excluir" asp-route-id="@usuario.User"></a></td>
+            </tr>        
+        }
+    </tbody>
+
+</table>
