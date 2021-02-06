@@ -14390,6 +14390,7 @@
     "CSharpLanguageVersion": 800
   },
   "RootNamespace": "Projeto_InstaDev",
+<<<<<<< HEAD
   "Documents": [
     {
       "FilePath": "d:\\Desktop\\Projetos SENAI\\Projetos MVC\\Projeto InstaDev\\Projeto-InstaDev\\Views\\Shared\\_Layout.cshtml",
@@ -14427,5 +14428,8 @@
       "FileKind": "mvc"
     }
   ],
+=======
+  "Documents": [],
+>>>>>>> develop
   "SerializationFormat": "0.2"
 }
