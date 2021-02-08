@@ -3,7 +3,7 @@
     ViewData["Title"] = "Editar-Perfil";
 }
 
-<form class="Editar-Perfil" action='@Url.Action("Editar-Perfil")' method="POST" enctype="multipart/form-data">
+<form class="editar-perfil" action='@Url.Action("Editar-Perfil")' method="POST" enctype="multipart/form-data">
 
     <div class="campo">
         <label for="Nome">Nome</label>
@@ -45,3 +45,46 @@
     </tbody>
 
 </table>
+
+<section class="perfilEditar">
+            <div class="org">
+                 <h2>Editar Perfil</h2>
+                
+                <div class="editarTopo">
+                    <img src="/img/thank-you 2.png">
+                    <div class="fotoAlt">
+                        <p>yes_baby</p>
+                        <a href="#">Alterar foto do perfil</a>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <div class="editForm">
+                    <h2>Nome</h2>
+                    <input type="text" id="nome" name="name">   
+                </div>
+                <p>Ajude as pessoas a descobrir a sua conta usando o nome pelo qual você é conhecido:seu nome completo,apelido ou nome comercial. <br> Você pode alterar seu nome apenas duas vezes a cada 14 dias.</p>
+                    
+                
+                
+                <div class="editForm">
+                    <h2>Nome de usuário</h2>
+                    <input type="text" id="nome us" name="nome-user">   
+                </div>
+                <p>Na maioria dos casos,você poderá alterar seu nome de usuário novamente para nascimento_tr em 14 dias.</p>
+                
+                
+            
+                <p><span>Informações pessoais</span> <br> Forneça suas informações pessoais,mesmo se a conta for usada para uma empresa,um animal de estimação ou outra coisa.Elas não farão parte de seu perfil público.</p>
+                <div class="editForm">
+                    <h2>Email</h2>
+                    <input type="email" id="email" name="espaco-email">
+                </div>
+                
+                    
+                </div>
+                <div class="btn-enviar">
+                    <input type="button" value="Enviar">
+                    <a href="#">Desativar minha conta definitivamente</a>
+                </div>
+        </section>
