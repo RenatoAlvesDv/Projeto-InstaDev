@@ -1,62 +1,13 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-br">
-<<<<<<< HEAD
+
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewData["Title"] - Edição de Perfil</title>
-    <link rel="stylesheet" href="css/styleEdicaoPerfil.css">
-</head>
-
-<header class="topo">
-    <div class="content">
-        <a href="index.html">
-            <img src="images/Instadev.svg" alt="Logo Instadev" class="logo">
-        </a>
-        <nav class="menu">
-            <ul>
-                <h1><img src="images/Simbolo pesquisa.png">Pesquisar</h1>
-                <li><a href="#"></a><img src="images/Simbolo home.png" alt="Simbolo de página inicial"></a></li>
-                <li><a href="#"><img src="images/Simbolo enviar.png" alt="Item para fazer publicações"></a></li>
-                <li><a href="#"><img src="images/Simbolo bussóla.png" alt="Simbolo de uma bussóla"></a></li>
-                <li><a href="#"><img src="images/Simbolo coração.png" alt="Item para curtir publicações"></a></li>
-                <li><a href="#"><img src="images/Jeeves menor.png" alt="Foto do saudoso Marcos Jeeves"></a></li>
-            </ul>
-        </nav>
-=======
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Projeto_InstaDev</title>
-<<<<<<< HEAD
-    <link rel="stylesheet" href="~/css/perfil.css"/>
-    <link rel="stylesheet" href="~/css/loginstyle.css"/>
-</head>
-<body>
-    <header>
-        <header class="content">
-            <div class="content">
-                <a href="index.html">
-                    <img src="img/Instadev-T.svg" alt="Logo Instadev" class="logo">
-                </a>
-                <nav class="menu">
-                    <ul>
-                        <h1><img src="img/search.png">Pesquisar</h1>
-                        <li><a href="#"></a><img src="img/home.png" alt="Simbolo de página inicial"></a></li>
-                        <li><a href="#"><img src="img/direct.png" alt="Item para fazer publicações"></a></li>
-                        <li><a href="#"><img src="img/compass.png" alt="Simbolo de uma bussóla"></a></li>
-                        <li><a href="#"><img src="img/like.png" alt="Item para curtir publicações"></a></li>
-                        <li><a href="#"><img src="img/nick.png" alt="Foto do saudoso Marcos Jeeves"></a></li>
-                        
-                    </ul>
-                </nav>
-            </div>
-        </header>
-=======
     <link rel="stylesheet" href="~/css/styleFeed.css" />
 </head>
-<body>
     <header class="content">
         <div class="principal">
             <a asp-area="" asp-controller="Home" asp-action="Index">
@@ -69,40 +20,22 @@
                     <li><a href="#"><img src="img/direct.png" alt="Item para fazer publicações"></a></li>
                     <li><a href="#"><img src="img/compass.png" alt="Simbolo de uma bussóla"></a></li>
                     <li><a href="#"><img src="img/like.png" alt="Item para curtir publicações"></a></li>
-                    <li><a href="#"><img src="img/thank-you 1.png" alt="Foto do saudoso Marcos Jeeves"></a></li>
+                    <li><a href="~/Perfil"><img src="img/thank-you 1.png" alt="Foto do saudoso Marcos Jeeves"></a></li>
                 </ul>
             </nav>
         </div>
->>>>>>> 7c9c356a2626fa10ddc70d31a03a046d0e95d957
+
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
->>>>>>> 60957795a435fcb17ad40bc6c4821b868329a634
-    </div>
-</header>
+<body>
 
 <main role="main" class="pb-3">
     @RenderBody()
 </main>
 
-<<<<<<< HEAD
-</html>
-=======
-    <footer class="content">
+
+<footer class="content">
     <div class="linhaUm">
-<<<<<<< HEAD
-            <a href="#">Sobre</a>
-            <a href="#">Carreiras</a>
-            <a href="#">Ajuda</a>
-            <a href="#">API</a>
-            <a href="#">Pivacidade</a>
-            <a href="#">Termos</a>
-            <a href="#">Contas mais relevantes</a>
-            <a href="#">Hashtags</a>
-            <a href="#">Localizações</a><br>
-=======
+
         <a href="#">Sobre</a>
         <a href="#">Carreiras</a>
         <a href="#">Ajuda</a>
@@ -112,21 +45,20 @@
         <a href="#">Contas mais relevantes</a>
         <a href="#">Hashtags</a>
         <a href="#">Localizações</a><br>
->>>>>>> 7c9c356a2626fa10ddc70d31a03a046d0e95d957
+
     </div>
 
     <div class="linhaDois">
         <a href="#">Português Brasil</a>
-        <a href="#">© 2021 IntaDev Senai Informática</a>
+        <a href="#">© 2021 IntaDev - Grupo 8 - Senai Informática</a>
     </div>
-<<<<<<< HEAD
-=======
+
+
 </footer>
->>>>>>> 7c9c356a2626fa10ddc70d31a03a046d0e95d957
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
->>>>>>> 60957795a435fcb17ad40bc6c4821b868329a634
+
