@@ -1,17 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eR/oyv/dd5Dlj8nDaLbSQrUTkJeQTT9w9u2bkdCiJEmwTb47ivtVgb9jYmvek0lsrR7URqsCQ02MZ1GEmP0b1Q==",
+  "dgSpecHash": "Q5EGmLSFJPiV5YYVkoYTxmk/zJXUNPYuAA7EBQmsACNBqW+p2wMJNOxwNsqy6SaeCJicQ/SjrR0wMZbiLd18kw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\erika\\Desktop\\PROJETOS SENAI\\Nova pasta\\Projeto-InstaDev\\Projeto-InstaDev.csproj",
+  "projectFilePath": "C:\\Users\\renat\\OneDrive\\Área de Trabalho\\ds\\Projeto-InstaDev\\Projeto-InstaDev.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\erika\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.11\\microsoft.netcore.app.host.win-x64.3.1.11.nupkg.sha512"
+    "C:\\Users\\renat\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.11\\microsoft.netcore.app.host.win-x64.3.1.11.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema ao ler o arquivo de cache C:\\Users\\erika\\Desktop\\PROJETOS SENAI\\Nova pasta\\Projeto-InstaDev\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\erika\\Desktop\\PROJETOS SENAI\\Nova pasta\\Projeto-InstaDev\\Projeto-InstaDev.csproj": {}
+    "C:\\Users\\renat\\OneDrive\\Área de Trabalho\\ds\\Projeto-InstaDev\\Projeto-InstaDev.csproj": {}
   },
   "projects": {
-    "C:\\Users\\erika\\Desktop\\PROJETOS SENAI\\Nova pasta\\Projeto-InstaDev\\Projeto-InstaDev.csproj": {
+    "C:\\Users\\renat\\OneDrive\\Área de Trabalho\\ds\\Projeto-InstaDev\\Projeto-InstaDev.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erika\\Desktop\\PROJETOS SENAI\\Nova pasta\\Projeto-InstaDev\\Projeto-InstaDev.csproj",
+        "projectUniqueName": "C:\\Users\\renat\\OneDrive\\Área de Trabalho\\ds\\Projeto-InstaDev\\Projeto-InstaDev.csproj",
         "projectName": "Projeto-InstaDev",
-        "projectPath": "C:\\Users\\erika\\Desktop\\PROJETOS SENAI\\Nova pasta\\Projeto-InstaDev\\Projeto-InstaDev.csproj",
-        "packagesPath": "C:\\Users\\erika\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erika\\Desktop\\PROJETOS SENAI\\Nova pasta\\Projeto-InstaDev\\obj\\",
+        "projectPath": "C:\\Users\\renat\\OneDrive\\Área de Trabalho\\ds\\Projeto-InstaDev\\Projeto-InstaDev.csproj",
+        "packagesPath": "C:\\Users\\renat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\renat\\OneDrive\\Área de Trabalho\\ds\\Projeto-InstaDev\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\erika\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\renat\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
